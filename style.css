@@ -520,9 +520,68 @@ margin: 0 auto;
  }
  .instructions p{
     color: #121212;
-    margin-left: 40px;
+    margin-left: 60px;
     line-height: 2;
     font-size: 12px;
+ }
+ #Section7{
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #928383;
+      }
+       h1{
+      
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 34px;
+        color: #ed88c0;
+     
+        font-weight: 900;
+
+      }
+  
+      .faq-section {
+        width: 90%;
+        max-width: 1100px;
+        max-height: 1000px;
+        margin: 1px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+      }
+  
+  
+      .faq-item {
+        border: 1px solid #fcf9f9;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        overflow: hidden;
+      }
+  
+      .faq-item button {
+        width: 100%;
+        padding: 15px;
+        text-align: left;
+        font-size: 16px;
+        background: #e2d9d9;
+        border: none;
+        cursor: pointer;
+        outline: none;
+      }
+  
+      .faq-item button:hover {
+        background: #e9e1e1;
+      }
+  
+      .faq-item button:focus {
+        background: #e8e1e1;
+      }
+  
+      .faq-item:not(:last-child) {
+        margin-bottom: 10px;
+      }
  }
   /* Contact Section */
   .contactcontainer {
@@ -580,7 +639,7 @@ margin: 0 auto;
     color: #4b4040;
     padding: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
   }
   
@@ -613,7 +672,7 @@ margin: 0 auto;
   
   footer h3{
     text-align: center;
-    color: #ffffff;
+    color: #171616;
     /* padding-bottom: 20px; */
   }
  
