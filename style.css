@@ -1,0 +1,625 @@
+
+
+body {
+    background: linear-gradient(to bottom, #f1ebed,  #eceaea);
+    background-attachment: fixed;
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+    margin: 0 auto;
+
+  }
+
+  .header .logo img {
+    width: 140px; 
+    height: auto;
+    position: absolute; /* Fix the logo in the center of the header */
+  left: 50%;
+  transform: translateX(-80%); 
+  }
+
+
+
+  .header .menu .first {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    list-style-type: none;
+   margin-left: 220px;
+   margin-bottom: -13px;
+  }
+  
+  .header .menu .second{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 650px;
+  }
+  .header .menu a {
+    text-decoration: none;
+    color: #555555;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  
+
+  .header .menu a:hover {
+    color: #ff00ff;
+  }
+
+  .header .cart {
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .header .cart::before {
+    content: "\1F6D2"; /* Unicode for shopping cart icon */
+  }
+
+
+
+  #Section1{
+  .text-content h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    font-size: 50px;
+   text-align: left;
+   margin-left: 100px;
+   margin-top: 50px;
+   line-height: 50px;
+   
+  
+   
+
+  }
+  .text-content h1 .black{
+    font-weight:800;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 15px;
+   
+
+  }
+  .text-content h1 .blue{
+    font-weight:800;
+    font-size: 50px;
+    color: #4fa7d0;
+    text-align: left;
+    margin-left: 15px;
+   
+  }
+  .text-content p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555555;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+    
+.third{
+margin: 0 auto;
+}
+ .right{
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+     float: right;
+    bottom: 0;
+    position: absolute;
+ }
+  }
+
+    #Section2{
+        .hero-content {
+            max-width: 100%;
+            margin-bottom: 30px;
+          }
+        
+          .hero-image {
+            width: 80%;
+            margin: 0 auto;
+          }
+        }
+      
+      .science-section {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          padding: 50px;
+          background-color: #f5f4f4;
+          min-height: 80vh;
+        }
+        
+        .science-content {
+          max-width: 50%;
+        }
+        .science-title {
+          font-size: 3rem;
+          color: #0047AB;
+          margin-bottom: 20px;
+        }
+        .science-description {
+          font-size: 1.2rem;
+          color: #555;
+          margin-bottom: 30px;
+        }
+        .hero-image {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+        
+        @media (max-width: 768px) {
+          .hero {
+            flex-direction: column;
+            text-align: center;
+          }
+        
+          .hero-content {
+            max-width: 100%;
+            margin-bottom: 30px;
+          }
+        
+          .hero-image {
+            width: 50%;
+            margin: 0 auto;
+          }
+        }
+    
+#Section3{
+    body{
+        background: linear-gradient(to bottom, #d3ccce,  #e0d6d6);
+    }
+    .ease-content h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:400;
+        font-size: 50px;
+       text-align: left;
+       margin-left: 100px;
+       margin-top: 50px;
+       line-height: 50px;
+       
+      
+       
+    
+      }
+      .ease-content h1 .black{
+        font-weight:700;
+        font-size: 40px;
+        text-align: left;
+        margin-left: 15px;
+       
+    
+      }
+      .ease-content h1 .pink{
+        font-weight:700;
+        font-size: 40px;
+        color:#ff00ff;
+        text-align: left;
+        margin-left: 15px;
+       
+      }
+      .fourth p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:black;
+        margin-top: 20px;
+        margin-left: 100px;
+        font-size: 15px;
+        
+      }
+        
+    .fourth{
+    margin: 0 auto;
+    }
+     .left{
+      width: 500px;
+      float: right;
+       
+         
+     }
+}
+ #Section4{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+          background: linear-gradient(to bottom, #f1ebed,  #eceaea);
+    background-attachment: fixed;
+
+      }
+      
+      .rex-content {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px 50px;
+        background-color: #f9f9f9;
+
+       
+      }
+      
+     
+      .vertical-text {
+        font-size: 50px;
+        font-weight: 900;
+        color: #2c2f32;
+        transform: rotate(-90deg); 
+        transform-origin: left bottom;
+        margin-left: 70px;
+      
+       
+      
+      }
+   
+      .benefits-content {
+        flex: 1;
+        color: #333;
+        font-family: Arial, sans-serif;
+        border: 2px dashed #121212;
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 10px;
+      }
+      
+      .benefits-content p {
+        margin-bottom: 12px;
+        line-height: 1;
+        font-weight: bold;
+       
+      }
+      
+      .benefits-content ul {
+        list-style-type: none;
+        padding-left: 0;
+       
+      }
+      
+      .benefits-content li {
+        margin-bottom: 15px;
+       
+      }
+      
+      .benefits-content strong {
+        color: #3498db;
+        
+      }
+ }
+ #Section5{
+    *{
+        background-color: rgb(247, 236, 236);
+    }
+ .another{
+    margin: 100px;
+    
+    
+  }
+  .anotherheading{
+    color: rgb(2, 2, 59);
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+  }
+  
+  .anothercontent p{
+    padding-bottom: 10px;
+    text-align: justify;
+    
+  }
+ 
+}
+#Section6{
+    *{
+        background-color: #f0e9e9;
+    }
+  .cart {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(217, 217, 217);
+    padding: 8px;
+    border-radius: 20px;
+    position: relative; /* Add this to allow absolute positioning of the badge */
+  }
+  
+  .cart-count-badge {
+    background-color: rgb(253, 37, 138);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 8px;
+    position: absolute; /* Position the badge relative to .cart */
+    top: 19px; /* Adjust this value to position the badge properly */
+    right: 60px; 
+  }  
+
+  /* Modal background */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #cart-items {
+    margin-top: 20px;
+  }
+  
+  #cart-items .cart-item {
+    margin-bottom: 10px;
+  }
+  
+  #checkout-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #45a049;
+  }
+  /* Product Section */
+  .productheading{
+    text-align: center;
+  }
+  
+  .productheading h1{
+  color: rgb(2, 2, 59);
+  font-size: 40px;
+  margin-bottom: 10px;
+  }
+  
+  .productheading p{
+    justify-content: center;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .slider {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 10px); /* 3 cards per row */
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 8px;
+    
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card img{
+    width: 80%;
+    height:auto;
+  }
+  
+  .slider-btn {
+    background-color: rgb(2, 171, 205);
+    color: white;
+    border: none;
+    padding: 15px 17px; /* Adjust padding for a circular shape */
+    cursor: pointer;
+    border-radius: 50%; /* Makes the button round */
+    font-size: 1rem;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }        
+  
+  .slider-btn:hover {
+    background-color: rgb(2, 202, 243);
+  }
+  
+  .slider-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .shopnow-btn {
+    background-color: transparent;
+    color: rgb(2, 171, 205);
+    border: 1px solid rgb(2, 171, 205);
+    border-radius: 25px;
+    padding: 10px 18px;
+    margin-bottom: 20px;
+  }
+  
+  .shopnow-btn:hover {
+    background-color: rgb(2, 171, 205);
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 10px); /* 2 cards per row */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+        flex: 0 0 calc(100% - 10px); /* 1 card per row */
+    }
+  
+    .slider-btn {
+        padding: 15px 17px;
+        font-size: 0.9rem;
+    }
+  }
+}
+ .instructions h1{
+    color: rgba(2, 171, 205);
+    margin-left: 50px;
+    font-size: 15px;
+ }
+ .instructions p{
+    color: #121212;
+    margin-left: 40px;
+    line-height: 2;
+    font-size: 12px;
+ }
+  /* Contact Section */
+  .contactcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e3e3;
+    border: none;
+    border-radius: 15px;
+    padding: 5%;
+    max-width: 900px;
+    margin: 60px auto -80px; /* Adjusted margin to overlap with the footer */
+    gap: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contactform {
+    flex: 1; /* Takes equal space */
+    padding-right: 20px;
+  }
+  
+  .contactform label {
+    font-size: 12px;
+  }
+  
+  .contactform #name, 
+  #email {
+    padding: 8px;
+    font-size: 12px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  .contactform #message {
+    padding: 8px;
+    font-size: 12px;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  #message::placeholder {
+    position: absolute;
+    top: 8px; /* Adjust vertical positioning */
+    left: 10px;/* Adjusts the vertical positioning */
+  }
+  
+  .submit-btn {
+    background-color: rgb(2, 171, 205);
+    color: #4b4040;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .submit-btn:hover{
+    background-color: rgb(1, 213, 255);
+  }
+  
+  .contactimage {
+    flex: 1; 
+    text-align: center; 
+    padding-left: 20px;
+  }
+  
+  .contactimage img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto;
+  }
+  
+  /* Footer */
+  footer{
+    background-color: rgb(2, 171, 205);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 8% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer h3{
+    text-align: center;
+    color: #ffffff;
+    /* padding-bottom: 20px; */
+  }
+ 
+
+  
+  
+  
+  
+ 
